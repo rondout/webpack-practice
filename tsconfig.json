@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false,
+    "module": "NodeNext",
+    "target": "es5",
+    "allowJs": true,
+    "moduleResolution": "NodeNext",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+    },
+  },
+  "include": [
+    "*.d.ts",
+    "src/**/*.vue",
+    "src/**/*.d.ts",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+  ],
+  "files": ["src/index.ts"],
+}
